@@ -81,6 +81,7 @@ fn parse_file_info(raw: &str) -> Vec<FileInfo> {
             buf.push(c);
         }
     }
+    files.push(file_info_buf.clone());
 
     files
 }
